@@ -307,7 +307,7 @@ return loading ? (
         <div className="middata">
           <div>
             <div className="set">Pressure</div>
-            <div>{pressure} hpa</div>
+            <div>{pressure} pa</div>
           </div>
           <div>
             <div className="set">Humidity</div>
@@ -318,11 +318,11 @@ return loading ? (
         <div className="middata">
           <div>
             <div className="set">Sunrise</div>
-            <div>{sunrise}am</div>
+            <div>{sunrise} am </div>
           </div>
           <div>
             <div className="set">Sunset</div>
-            <div>{sunset}pm</div>
+            <div>{sunset} pm </div>
           </div>
         </div>
         <ResponsiveContainer width="100%" height={160}>
@@ -348,11 +348,11 @@ return loading ? (
             <div className="lastdata">
           <div>
            
-            <div>{sunrise}am</div>
+            <div>{sunrise} am</div>
           </div>
           <div>
             
-            <div>{sunset}pm</div>
+            <div>{sunset} pm</div>
           </div>
         </div>
       </div>
